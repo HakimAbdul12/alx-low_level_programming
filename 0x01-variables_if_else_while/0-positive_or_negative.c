@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /* *
@@ -21,5 +22,6 @@ int main(void)
 	}
 	else if (n<0)
 	{ printf("is negative");
+	}
 	return (0);
 }
