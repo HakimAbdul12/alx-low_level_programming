@@ -3,9 +3,16 @@
 /**
  * print_last_digit - Entry
  * Return: Always important
- * @i: The intake
+ * @k: The intake
+ * @last: an input
  */
 int print_last_digit(int k)
 {
-	return (k % 10);
+	int last = k % 10;
+	if (last < 0)
+	{
+		last = -last;
+	}
+	_putchar(last + '0');
+	return (last);
 }
