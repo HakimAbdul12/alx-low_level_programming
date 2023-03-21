@@ -4,7 +4,7 @@
  * _islower - Entry point
  *
  * Return: Always 0 (success)
- * c: an interger
+ * @c: The character to check
  */
 int _islower(int c)
 {
