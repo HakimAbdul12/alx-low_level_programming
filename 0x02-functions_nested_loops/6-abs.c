@@ -7,17 +7,12 @@
  */
 int _abs(int k)
 {
-	if (k == 0)
+	if (k > 0)
 	{
-		_putchar(k + '0');
+		return (k);
 	}
-	else if (k > 0)
+	else
 	{
-		_putchar(k = '0');
+		return (-k);
 	}
-	else if (k < 0)
-	{
-		_putchar(k + '0');
-	}
-	return (0);
 }
