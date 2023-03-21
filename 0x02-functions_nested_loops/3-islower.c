@@ -4,10 +4,11 @@
  * _islower - Entry point
  *
  * Return: Always 0 (success)
+ * c: an interger
  */
 int _islower(int c)
 {
-	if (c <= 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
