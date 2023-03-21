@@ -4,15 +4,14 @@
  * print_last_digit - Entry
  * Return: Always important
  * @k: The intake
- * @last: an input
  */
 int print_last_digit(int k)
 {
-	int last = k % 10;
-	if (last < 0)
+	k = k % 10;
+	if (k < 0)
 	{
-		last = -last;
+		k  = -k;
 	}
-	_putchar(last + '0');
-	return (last);
+	_putchar(k + '0');
+	return (k);
 }
