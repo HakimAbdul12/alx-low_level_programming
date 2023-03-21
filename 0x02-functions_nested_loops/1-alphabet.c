@@ -1,12 +1,17 @@
+#include <unistd.h>
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - wrietes the characters 
  *
- * Return: Always 0 (Success)
+ * Return: On success 1.
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char i = 'a';
+	while (i <= 'z')
+	{
+		_putchar(i);
+		i++;
+	}
 	_putchar('\n');
-	return (0);
 }
