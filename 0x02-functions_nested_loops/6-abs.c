@@ -9,15 +9,15 @@ int _abs(int k)
 {
 	if (k == 0)
 	{
-		_putchar(k);
+		_putchar(k + '0');
 	}
 	else if (k > 0)
 	{
-		_putchar(k);
+		_putchar(k = '0');
 	}
 	else if (k < 0)
 	{
-		_putchar(k);
+		_putchar(k + '0');
 	}
 	return (0);
 }
