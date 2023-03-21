@@ -4,10 +4,8 @@
  * _abs - Entry point
  * Return: an integer
  */
-int _abs(int)
+int _abs(int k)
 {
-	int k;
-
 	if (k == 0)
 	{
 		_putchar(k +'0');
