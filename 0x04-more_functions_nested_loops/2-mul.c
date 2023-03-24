@@ -3,7 +3,7 @@
  * mul - is the entry point
  * @a: is an argument
  * @b: is also an input argument
- * return: always 0 success
+ * return: always (a * b)  success
  */
 int mul(int a, int b)
 {
