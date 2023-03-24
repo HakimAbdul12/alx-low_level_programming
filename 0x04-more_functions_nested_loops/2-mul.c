@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * mul - is the entry point
+ * mul - muliplies two integers
  * @a: is an argument
  * @b: is also an input argument
- * return: always (a * b)  success
+ * Return: always (a * b)  success
  */
 int mul(int a, int b)
 {
