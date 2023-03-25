@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * print_numbers - Entry point
- * @i: is a variable
  * Return: void
  */
 void print_numbers(void)
