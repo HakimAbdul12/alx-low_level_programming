@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * main - Entry
- * @i: input
  * Return: always 0
  */
-int main(int i)
+int main(void)
 {
+	int i;
 
 	for (i = 1 ; i <= 100 ; i++)
 	{
