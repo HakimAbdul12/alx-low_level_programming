@@ -4,9 +4,8 @@
  * @i: input
  * Return: always 0
  */
-int main(void)
+int main(int i)
 {
-	int i;
 
 	for (i = 1 ; i <= 100 ; i++)
 	{
@@ -14,7 +13,7 @@ int main(void)
 		{
 			printf("Fizz");
 		}
-		else if ( i % 5 == 0)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz");
 		}
