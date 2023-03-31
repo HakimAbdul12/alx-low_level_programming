@@ -3,7 +3,7 @@
  * *_strncat - combines two strrings
  * @dest: is the destination
  * @src: is the source
- * Return: character
+ * Return: deste
  * @n: is the bytes of src
  */
 char *_strncat(char *dest, char *src, int n)
