@@ -4,13 +4,12 @@
  * @s: block where the byte(b) is stored
  * @b: is the byte to be stored
  * @n: is the number of bytes to be stored
- * Return: s
+ * Return: pointer to s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
+	int i = 0;
 
-	i = 0;
 	for (; i < n; i++)
 	{
 		s[i] = b;
