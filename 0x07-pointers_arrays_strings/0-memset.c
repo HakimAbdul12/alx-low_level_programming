@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * *_memset - set a block of memory for a byte
  * @s: block where the byte(b) is stored
