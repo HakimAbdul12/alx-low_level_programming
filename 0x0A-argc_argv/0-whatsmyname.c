@@ -6,7 +6,7 @@
  * @argv: is the pointer to the strings
  * Return: void
  */
-int main(int argc, char *argv[])
+int main(int argc__attribute__((unused)), char *argv[])
 {
 	int i = 0;
 	char *program_name = argv[0];
