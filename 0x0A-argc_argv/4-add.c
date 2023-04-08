@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 /**
  * add_all - is a function that add all the numbers
  * @argc: is the argument count
