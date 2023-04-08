@@ -14,6 +14,8 @@ int add_all(int argc, char *argv[])
 
 	int sum = 0;
 
+	int num;
+
 	char *y;
 
 	for (i = 1; i < argc; i++)
@@ -27,7 +29,7 @@ int add_all(int argc, char *argv[])
 				printf("Error\n");
 				return (1);
 			}
-			int num = atoi(&y[j]);
+			num = atoi(&y[j]);
 
 			if (num > 0)
 			{
