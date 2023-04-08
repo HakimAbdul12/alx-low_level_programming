@@ -15,9 +15,11 @@ int add_all(int argc, char *argv[])
 
 	int sum = 0;
 
+	char *y;
+
 	for (i = 1; i < argc; i++)
 	{
-		char *y[] = argv[i];
+		y = argv[i];
 
 		for (j = 0; y[j] != '\0'; j++)
 		{
@@ -26,7 +28,7 @@ int add_all(int argc, char *argv[])
 				printf("Error\n");
 				return (1);
 			}
-			int num = atoi(y[j]);
+			int num = atoi(&y[j]);
 			if (num > 0)
 			{
 				sum += num;
