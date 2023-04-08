@@ -4,7 +4,7 @@
  * main - is the entry point
  * @argc: is the count for the command line inputs
  * @argv: is the pointer to the strings
- * Return: void
+ * Return: always (0) success
  */
 int main(int argc__attribute__((unused)), char *argv[])
 {
