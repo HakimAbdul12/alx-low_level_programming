@@ -29,6 +29,7 @@ int add_all(int argc, char *argv[])
 				return (1);
 			}
 			int num = atoi(&y[j]);
+
 			if (num > 0)
 			{
 				sum += num;
@@ -48,7 +49,7 @@ int main(int argc, char *argv[])
 {
 	if (argc > 1)
 	{
-		return ( add_all(argc, argv));
+		return (add_all(argc, argv));
 	}
 	else
 	{
