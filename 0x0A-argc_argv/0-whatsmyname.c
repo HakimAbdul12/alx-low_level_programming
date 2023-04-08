@@ -8,14 +8,6 @@
  */
 int main(int argc__attribute__((unused)), char *argv[])
 {
-	int i = 0;
-	char *program_name = argv[0];
-
-	while (program_name[i] != '\0')
-	{
-		_putchar(program_name[i]);
-		program_name++;
-	}
-	_putchar('\n');
+	printf("%s\n", argv[0]);
 	return (0);
 }
