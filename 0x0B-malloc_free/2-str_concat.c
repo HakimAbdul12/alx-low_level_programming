@@ -4,7 +4,7 @@
 /**
  * str_concat - concatinate two strings
  * @s1: is the first string
- * @ss2: is the second string
+ * @s2: is the second string
  * Return: pointer to character
  */
 char *str_concat(char *s1, char *s2)
@@ -13,8 +13,10 @@ char *str_concat(char *s1, char *s2)
 	int j;
 	char *ptr;
 
-	if (!s1) s1 = "";
-	if (!s2) s2 = "";
+	if (!s1)
+		s1 = "";
+	if (!s2)
+		s2 = "";
 	ptr = malloc(strlen(s1) + strlen(s2) + 1);
 	if (ptr == NULL)
 		return (0);
