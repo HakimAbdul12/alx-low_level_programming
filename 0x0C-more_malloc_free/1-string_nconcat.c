@@ -4,7 +4,8 @@
 /**
  * string_nconcat - concatinate the whole of s1 and n bytes of s2
  * @s1: is the first string
- * @s1: is the secong string
+ * @s2: is the second string
+ * @n: is the number of bytes to copy
  * Return: a pointer to the duplicate
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
