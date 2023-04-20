@@ -8,7 +8,7 @@
  * @argv: is the argument vector
  * Return: Always (0) success
  */
-int main(int argc ,char *argv[])
+int main(int argc, char *argv[])
 {
 	int k;
 	int y;
@@ -41,7 +41,7 @@ int main(int argc ,char *argv[])
 
 		ptr = get_op_func(s);
 
-		k = ptr (y, z);
+		k = ptr(y, z);
 		printf("%d\n", k);
 		return (0);
 	}
