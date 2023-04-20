@@ -21,17 +21,18 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		if (separator == NULL)
 		{
 			if (i == (n - 1))
-				printf("%d\n", va_arg(list, int));
+				printf("%d", va_arg(list, int));
 			else
 				printf("%d", va_arg(list, int));
 		}
 		else
 		{
 			if (i == (n - 1))
-				printf("%d\n", va_arg(list, int));
+				printf("%d", va_arg(list, int));
 			else
 				printf("%d%s", va_arg(list, int), separator);
 		}
 	}
 	va_end(list);
+	printf("\n");
 }
